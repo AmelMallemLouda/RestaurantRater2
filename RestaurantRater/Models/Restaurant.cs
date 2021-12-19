@@ -19,6 +19,6 @@ namespace RestaurantRater.Models
         //DbSet is a collection of entities that can be queried from the database. it will act as a way to access all Restaurant objects that we set in our database
         //Entity is word used to describe objects that are being stored into the database
         //Connection string is used as a connection between our class and the database
-        public DbSet<Restaurant> Resaturants { get; set; }
+        public DbSet<Restaurant> Restaurants { get; set; }
     }
 }
